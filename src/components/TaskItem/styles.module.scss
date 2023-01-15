@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  width: 736px;
+  height: 72px;
+
+  background: #262626;
+
+  border: 1px solid #333333;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+
+  .notConcludedTask {
+    width: 16px;
+    height: 16px;
+
+    margin: 0 3px;
+
+    border: 1px solid #4EA8DE;
+    border-radius: 8px;
+
+    cursor: pointer;
+  }
+
+  p {
+    width: 632px;
+    color: #F2F2F2;
+  }
+
+  .concludedTask {
+    text-decoration-line: line-through; 
+  }
+
+  img {
+    cursor: pointer;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
